@@ -1,10 +1,17 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+
+//ES5 style below ..changing to ES6
+//var express = require('express');
+
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
 
-var port = 3000;
-var app = express();
+//ES5 style of declaring variable..moving to ES6
+//var port = 3000;
+
+const port = 3000;
+const app = express();
 
 app.get('/', function(req,res){
 
